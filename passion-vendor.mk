@@ -121,28 +121,24 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/vendor/firmware/BCM20795A2_001.003.025.0005.0050_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A2_001.003.025.0005.0050_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/lenovo/passion/proprietary/vendor/firmware/BCM20795A2_001.003.025.0005.0051_Customers_China_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A2_001.003.025.0005.0051_Customers_China_NCD_Unsigned_configdata.ncd \
     vendor/lenovo/passion/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
-    vendor/lenovo/passion/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/lenovo/passion/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
-    vendor/lenovo/passion/proprietary/vendor/lib/egl/libESXEGL_adreno.so:system/vendor/lib/egl/libESXEGL_adreno.so \
-    vendor/lenovo/passion/proprietary/vendor/lib/egl/libESXGLESv1_CM_adreno.so:system/vendor/lib/egl/libESXGLESv1_CM_adreno.so \
-    vendor/lenovo/passion/proprietary/vendor/lib/egl/libESXGLESv2_adreno.so:system/vendor/lib/egl/libESXGLESv2_adreno.so \
     vendor/lenovo/passion/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/lenovo/passion/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
-    vendor/lenovo/passion/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
-    vendor/lenovo/passion/proprietary/vendor/lib/egl/libRBEGL_adreno.so:system/vendor/lib/egl/libRBEGL_adreno.so \
-    vendor/lenovo/passion/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib/egl/libRBGLESv1_CM_adreno.so \
-    vendor/lenovo/passion/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:system/vendor/lib/egl/libRBGLESv2_adreno.so \
     vendor/lenovo/passion/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/lenovo/passion/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
+    vendor/lenovo/passion/proprietary/vendor/lib/eglSubDriverAndroid.so:system/vendor/lib/eglSubDriverAndroid.so \
     vendor/lenovo/passion/proprietary/vendor/lib/hw/sound_trigger.primary.msm8916.so:system/vendor/lib/hw/sound_trigger.primary.msm8916.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/lenovo/passion/proprietary/vendor/lib/libEGL_adreno.so:system/vendor/lib/libEGL_adreno.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
+    vendor/lenovo/passion/proprietary/vendor/lib/libGLESv1_CM_adreno.so:system/vendor/lib/libGLESv1_CM_adreno.so \
+    vendor/lenovo/passion/proprietary/vendor/lib/libGLESv2_adreno.so:system/vendor/lib/libGLESv2_adreno.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-    vendor/lenovo/passion/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
@@ -160,6 +156,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+    vendor/lenovo/passion/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
@@ -186,7 +183,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-    vendor/lenovo/passion/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -199,6 +195,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+    vendor/lenovo/passion/proprietary/vendor/lib/libllvm-qgl.so:system/vendor/lib/libllvm-qgl.so \
     vendor/lenovo/passion/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
@@ -259,9 +256,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/lenovo/passion/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/lenovo/passion/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
-    vendor/lenovo/passion/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
-    vendor/lenovo/passion/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
@@ -276,26 +271,22 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/lenovo/passion/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
-    vendor/lenovo/passion/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
-    vendor/lenovo/passion/proprietary/vendor/lib64/egl/libESXEGL_adreno.so:system/vendor/lib64/egl/libESXEGL_adreno.so \
-    vendor/lenovo/passion/proprietary/vendor/lib64/egl/libESXGLESv1_CM_adreno.so:system/vendor/lib64/egl/libESXGLESv1_CM_adreno.so \
-    vendor/lenovo/passion/proprietary/vendor/lib64/egl/libESXGLESv2_adreno.so:system/vendor/lib64/egl/libESXGLESv2_adreno.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
-    vendor/lenovo/passion/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
-    vendor/lenovo/passion/proprietary/vendor/lib64/egl/libRBEGL_adreno.so:system/vendor/lib64/egl/libRBEGL_adreno.so \
-    vendor/lenovo/passion/proprietary/vendor/lib64/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib64/egl/libRBGLESv1_CM_adreno.so \
-    vendor/lenovo/passion/proprietary/vendor/lib64/egl/libRBGLESv2_adreno.so:system/vendor/lib64/egl/libRBGLESv2_adreno.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
+    vendor/lenovo/passion/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
+    vendor/lenovo/passion/proprietary/vendor/lib64/eglSubDriverAndroid.so:system/vendor/lib64/eglSubDriverAndroid.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/hw/gatekeeper.msm8916.so:system/vendor/lib64/hw/gatekeeper.msm8916.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
+    vendor/lenovo/passion/proprietary/vendor/lib64/libEGL_adreno.so:system/vendor/lib64/libEGL_adreno.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libFileMux.so:system/vendor/lib64/libFileMux.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
+    vendor/lenovo/passion/proprietary/vendor/lib64/libGLESv1_CM_adreno.so:system/vendor/lib64/libGLESv1_CM_adreno.so \
+    vendor/lenovo/passion/proprietary/vendor/lib64/libGLESv2_adreno.so:system/vendor/lib64/libGLESv2_adreno.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
-    vendor/lenovo/passion/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
@@ -306,6 +297,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
+    vendor/lenovo/passion/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
@@ -324,7 +316,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
-    vendor/lenovo/passion/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
@@ -337,6 +328,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
+    vendor/lenovo/passion/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
@@ -370,9 +362,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
-    vendor/lenovo/passion/proprietary/vendor/lib64/libsc-a3xx.so:system/vendor/lib64/libsc-a3xx.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
-    vendor/lenovo/passion/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
