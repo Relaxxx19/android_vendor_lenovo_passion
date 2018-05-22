@@ -82,7 +82,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/etc/tfa98xx/speech.eq:system/etc/tfa98xx/speech.eq \
     vendor/lenovo/passion/proprietary/etc/tfa98xx/speech.preset:system/etc/tfa98xx/speech.preset \
     vendor/lenovo/passion/proprietary/vendor/lib/hw/audio.primary.msm8916.so:system/vendor/lib/hw/audio.primary.msm8916.so \
-    vendor/lenovo/passion/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
+    vendor/lenovo/passion/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/lenovo/passion/proprietary/lib/hw/fingerprint.goldfish.so:system/lib/hw/fingerprint.goldfish.so \
     vendor/lenovo/passion/proprietary/lib/hw/fingerprint.ranchu.so:system/lib/hw/fingerprint.ranchu.so \
     vendor/lenovo/passion/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
