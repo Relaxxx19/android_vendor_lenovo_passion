@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/lenovo/passion/proprietary/vendor/bin/location-mq:system/vendor/bin/location-mq \
     vendor/lenovo/passion/proprietary/vendor/bin/lowi-server:system/vendor/bin/lowi-server \
-    vendor/lenovo/passion/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/lenovo/passion/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lenovo/passion/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/lenovo/passion/proprietary/bin/netmgrd:system/bin/netmgrd \
