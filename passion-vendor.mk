@@ -81,6 +81,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/etc/tfa98xx/speech.eq:system/etc/tfa98xx/speech.eq \
     vendor/lenovo/passion/proprietary/etc/tfa98xx/speech.preset:system/etc/tfa98xx/speech.preset \
     vendor/lenovo/passion/proprietary/vendor/lib/hw/audio.primary.msm8916.so:system/vendor/lib/hw/audio.primary.msm8916.so \
+    vendor/lenovo/passion/proprietary/vendor/lib/hw/power.msm8916.so:system/vendor/lib/hw/power.msm8916.so \
     vendor/lenovo/passion/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/lenovo/passion/proprietary/lib/hw/fingerprint.goldfish.so:system/lib/hw/fingerprint.goldfish.so \
     vendor/lenovo/passion/proprietary/lib/hw/fingerprint.ranchu.so:system/lib/hw/fingerprint.ranchu.so \
@@ -95,6 +96,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/lib/libvfmClient.so:system/lib/libvfmClient.so \
     vendor/lenovo/passion/proprietary/lib/libvfmtztransport.so:system/lib/libvfmtztransport.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/hw/audio.primary.msm8916.so:system/vendor/lib64/hw/audio.primary.msm8916.so \
+    vendor/lenovo/passion/proprietary/vendor/lib64/hw/power.msm8916.so:system/vendor/lib64/hw/power.msm8916.so \
     vendor/lenovo/passion/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/lenovo/passion/proprietary/lib64/hw/fingerprint.goldfish.so:system/lib64/hw/fingerprint.goldfish.so \
     vendor/lenovo/passion/proprietary/lib64/hw/fingerprint.ranchu.so:system/lib64/hw/fingerprint.ranchu.so \
